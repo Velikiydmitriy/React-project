@@ -2,13 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //Parts
 
-import {Tick} from './components/Tick';
+import { App } from './container/App';
 
-setInterval(
-    () => {
-        ReactDOM.render(
-            <Tick/>,
-            document.getElementById('name')
-        );
-    },1000)
+ReactDOM.render(<App />, document.getElementById('name'));
 
