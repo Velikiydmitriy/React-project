@@ -1,0 +1,24 @@
+@import 'telephone';
+@import 'nav';
+
+.header {
+  background-color: #3399cc;
+  padding: 25px 10px 15px 10px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 25px;
+  color: aliceblue;
+  &__img {
+    margin-right: 29px;
+  }
+}
